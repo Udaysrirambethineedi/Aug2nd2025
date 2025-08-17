@@ -42,7 +42,7 @@ public class lAb5 {
 
 		driver.findElement(By.id("input-password")).sendKeys("asdfcghgh66");
 
-		driver.findElement(By.xpath("//*[@id=\"input-confirm\"]")).sendKeys("asdfgh66");
+		driver.findElement(By.xpath("//*[@id=\"input-confirm\"]")).sendKeys("asdfcghgh66");
 		
 		driver.findElement(By.name("agree")).click();
 		driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div/input[2]")).click();
